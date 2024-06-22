@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: firstkotlinapp
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/
+    username: admin
+    password: admin
+    name: first-kotlin-app
+
+server:
+  error:
+    include-message: always
+  port: 8000
+
